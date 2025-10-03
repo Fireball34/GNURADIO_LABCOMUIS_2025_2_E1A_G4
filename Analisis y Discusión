@@ -1,0 +1,17 @@
+Analisis y Discusión:
+Hubo una diferencia de 85 MHz entre la frecuencia en simulación y la frecuencia medida en el S11; con la antena física se obtuvo una frecuencia de 830 MHz cuando fue diseñada para 915 MHz.
+
+
+De entre los factores de afectación se debe tener en cuenta:
+
+
+- Tomando la orientación en simulación entre el reflector y la antena era de 0 grados; en la antena física la antena estaba 45 grados girada con respecto al reflector, quedando una parte de la antena por fuera de la superficie del reflector, lo que puede generar pérdidas en la potencia de la antena diseñada.
+
+
+- El alambre usado en la antena física terminó con imperfecciones de soldadura, torceduras que pueden ver afectadas las dimensiones y parámetros que no se tienen en cuenta en la simulación
+
+
+La antena física obtuvo un desempeño de 3dB como ganancia, lo cuál se considera poco pero se justifica con los factores mencionados anteriormente.
+
+
+El mayor punto de potencia se logró dirigiendo la antena totalmente apuntando a la antena transmisora visto desde el reflector, lo cuál corresponde al patrón de irradiación de la simulación.
