@@ -15,3 +15,5 @@ La antena física obtuvo un desempeño de 3dB como ganancia, lo cuál se conside
 
 
 El mayor punto de potencia se logró dirigiendo la antena totalmente apuntando a la antena transmisora visto desde el reflector, lo cuál corresponde al patrón de irradiación de la simulación.
+
+En cuanto al ajuste de parámetros se tiene que al aumentar el largo del lado del quad, la frecuencia de resonancia disminuye en aproximadamente 100MHz para cambios de 1 cm y viceversa; y para la variación del espaciamiento se tiene que al aumentarlo 1 cm la frecuencia de resonancia aumenta sólo 10 MHz y viceversa, en conclusión, al variar el lado del quad se realizar ajustes grandes y con el espaciamiento se hacen ajustes finos.
