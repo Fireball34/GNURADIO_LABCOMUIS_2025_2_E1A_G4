@@ -1,0 +1,22 @@
+import numpy as np
+from gnuradio import gr
+
+class blk(gr.sync_block):
+    def __init__(self):
+        gr.sync_block.__init__(
+            self,
+            name='Average Power',
+            in_sig=[(np.complex64, 4096)],  # <--- vector de 1024 muestras complejas
+            out_sig=[np.float32]
+        )
+
+    def work(self, input_items, output_items):
+        # input_items[0] contendrá varios vectores, cada uno de longitud 1024
+        in_vectors = input_items[0]
+
+        # Calcula la potencia promedio de cada vector recibido
+        for i, in_vec in enumerate(in_vectors):
+            avg_power = np.mean(np.abs(in_vec)**2)
+            output_items[0][i] = avg_power
+
+        return len(output_items[0])
