@@ -1,0 +1,25 @@
+import numpy as np
+from gnuradio import gr
+
+class blk(gr.sync_block):  # hereda de gr.sync_block
+    def __init__(self):
+        gr.sync_block.__init__(
+            self,
+            name='Mean and Std of Magnitude',   # nombre del bloque
+            in_sig=[(np.complex64, 4096)],      # vector complejo de longitud 1024
+            out_sig=[np.float32, np.float32]    # dos salidas flotantes
+        )
+
+    def work(self, input_items, output_items):
+        # input_items[0] contendrá varios vectores complejos
+        in_vectors = input_items[0]
+
+        for i, in_vec in enumerate(in_vectors):
+            magnitudes = np.abs(in_vec)
+            mean_mag = np.mean(magnitudes)
+            std_mag = np.std(magnitudes)
+
+            output_items[0][i] = mean_mag
+            output_items[1][i] = std_mag
+
+        return len(output_items[0])
