@@ -1,0 +1,13 @@
+- Análisis y Discusión:
+  
+  Identificación de anomalias: Basado en la tabla de resultados, identifique claramente cuál es el cable "que mayor atenuación presenta" yjustifique por qué su atenuación es significativamente mayor.
+
+  R/ El cable de 122 ft presenta mayor atenuación, esto debido a la relación de atenuación según la distancia 
+
+  Análisis Causa-Raíz: ¿Qué posibles fallas físicas en un cable o conector podrían causar una atenuación tan alta?
+
+  (Si se realizó el reto avanzado): Analiza cómo cambió la atenuación de los cables al aumentar la frecuencia. ¿Es un comportamientoesperado? ¿Por qué?
+
+- Conclusiones:
+
+  Resume tus hallazgos y la importancia de medir la pérdida en las líneas de transmisión para garantizar la integridad de un enlace decomunicaciones.
