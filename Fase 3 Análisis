@@ -6,9 +6,11 @@
 
   Análisis Causa-Raíz: ¿Qué posibles fallas físicas en un cable o conector podrían causar una atenuación tan alta?
 
-  R/ Conectores dañados podrían incluso dar una atenuación de -60 dB, por experiencia 
+  R/ Conectores dañados podrían incluso dar una atenuación de -60 dB, por experiencia en el laboratorio lo decimos, ya que, por una mala conexión de un conector una señal que debía ser de -15 dBm nos daba -60 dBm aproximadamente. 
 
-  (Si se realizó el reto avanzado): Analiza cómo cambió la atenuación de los cables al aumentar la frecuencia. ¿Es un comportamientoesperado? ¿Por qué?
+  (Si se realizó el reto avanzado): Analiza cómo cambió la atenuación de los cables al aumentar la frecuencia. ¿Es un comportamiento esperado? ¿Por qué?
+
+  R/ La atenuación aumentó demasiado al tener un cambio de 650 MHz, esto no es nada fuera de lo normal, para altas frecuencias hay diversos fenómenos físicos que afectan la transmisión en conductores, empeorandola.
 
 - Conclusiones:
 
