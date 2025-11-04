@@ -2,9 +2,11 @@
   
   Identificación de anomalias: Basado en la tabla de resultados, identifique claramente cuál es el cable "que mayor atenuación presenta" yjustifique por qué su atenuación es significativamente mayor.
 
-  R/ El cable de 122 ft presenta mayor atenuación, esto debido a la relación de atenuación según el largo del cable. Ej: Para 50 MHz => 3.2 dB/100 ft, es decir, a mayor largo del cable mayor atenuación.
+  R/ El cable de 122 ft presenta mayor atenuación, esto debido a la relación de atenuación según el largo del cable. Ej: Para 50 MHz => 3.2 dB/100 ft, es decir, a mayor largo del cable mayor atenuación. Sin embargo, es sólo un poco mayor porque el otro cable era de 118 ft.
 
   Análisis Causa-Raíz: ¿Qué posibles fallas físicas en un cable o conector podrían causar una atenuación tan alta?
+
+  R/ Conectores dañados podrían incluso dar una atenuación de -60 dB, por experiencia 
 
   (Si se realizó el reto avanzado): Analiza cómo cambió la atenuación de los cables al aumentar la frecuencia. ¿Es un comportamientoesperado? ¿Por qué?
 
