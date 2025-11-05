@@ -8,4 +8,4 @@ También se captan cerca a los 643 MHz picos frecuentes con hasta -43 dB de gana
 
 Rondando los 100 MHz se encuentran múltiples señales de radio FM evidenciadas como múltiplespicos estables.
 
-Cerca de los 475 MHz se hallan señales con un promedio de -68 dB de ganancia, asociando esta señala televisión digital con
+Cerca de los 475 MHz se hallan señales con un promedio de -68 dB de ganancia, asociando esta señala televisión digital con una banda de buen anchor aproximadamente 5 MHz pero no tan estable comola primera señal.
