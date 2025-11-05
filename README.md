@@ -26,3 +26,9 @@ Cerca de los 475 MHz se hallan señales con un promedio de -68 dB de ganancia, a
 
 - Ancho de Banda:
     9.0913 MHz. La diferencia entre los puntos donde inicia la señal y termina laseñal.
+
+- Resolución de ancho de banda (RBW):
+    100 kHz. Para un RBW superior (entre 300kHz y 1MHz)no se percibe el salto entre ruido y señal. Para un RBW menor la visualización de la señalempieza a ser mejor.
+
+- SPAN:
+    12MHz. Este valor de SPAM permite visualizar todo el ancho de banda de la señal y unborde de ruido.
