@@ -55,8 +55,11 @@ Se va a tomar como referencia la señal correspondiente a la frecuencia 90.7MHz 
       Con el SDR se hace mucho más sencilla la tarea de búsqueda de señales debido a su interfaz, además, las señales visualizadas no tienen tanta dependencia del entorno como lo hace el analizador de espectros.
 
     ¿Qué ventajas y desventajas tiene cada equipo para esta tarea de reconocimiento?
+  
       - SDR:
+  
             Ventajas:
+  
                     - Ajustabilidad de parámetros para facilitar la tarea requerida.
                     - Permite un desplazamiento en la búsqueda de frecuencia mucho más fluido.
             Desventajas:
