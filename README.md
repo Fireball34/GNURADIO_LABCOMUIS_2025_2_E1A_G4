@@ -38,3 +38,10 @@ Cerca de los 475 MHz se hallan señales con un promedio de -68 dB de ganancia, a
 
 - SPAN:
     12MHz. Este valor de SPAM permite visualizar todo el ancho de banda de la señal y unborde de ruido.
+
+# Fase 3. Visualización de la Onda
+
+Se va a tomar como referencia la señal correspondiente a la frecuencia 90.7MHz debido a que lafrecuencia usada en los puntos anteriores de 783MHz esta fuera de los limites del osciloscopio. Usandomediciones automáticas, el voltaje pico a pico medido por medio del osciloscopio fue de 8.3986mVcon una frecuencia de 5.88MHz. La señal en el dominio del tiempo presento fluctuaciones debidas a lacombinación de distintas frecuencias en esa misma señal lo cual dificulta su analisis en el dominio deltiempo, pero por medio de la FFT su comportamiento permite un mejor análisis. Aparentemente losvalores máximos y mínimos de tensión se mantienen,es decir, no se presentan picos anormales detensión a lo largo de la señal
+
+![Osciloscopio](https://github.com/user-attachments/assets/7cc4c471-c529-4064-9abf-43e182b5e884)
+
