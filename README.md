@@ -16,3 +16,13 @@ Cerca de los 475 MHz se hallan señales con un promedio de -68 dB de ganancia, a
 
 <img width="1035" height="584" alt="image" src="https://github.com/user-attachments/assets/847a5d8c-83bc-4c9a-90c2-927d7fd623ad" />
 
+# Fase 2: Análisis de Precisión (La Lupa del Analizador)
+
+- Frecuencia Central:
+    783.007614 MHz. Se toma este parametro, ya que, se reconoce como elpunto medio entre las dos frecuencias visualizadas donde comienza y termina la señal.
+
+- Potencia:
+    -67.52 dBm. El marcador en su modo seat to peak toma como pico este valor depotencia.
+
+- Ancho de Banda:
+    9.0913 MHz. La diferencia entre los puntos donde inicia la señal y termina laseñal.
