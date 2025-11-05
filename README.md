@@ -21,11 +21,17 @@ Cerca de los 475 MHz se hallan señales con un promedio de -68 dB de ganancia, a
 - Frecuencia Central:
     783.007614 MHz. Se toma este parametro, ya que, se reconoce como elpunto medio entre las dos frecuencias visualizadas donde comienza y termina la señal.
 
+<img width="1033" height="576" alt="image" src="https://github.com/user-attachments/assets/22f8789e-160b-4647-b732-336588f4c173" />
+
 - Potencia:
     -67.52 dBm. El marcador en su modo seat to peak toma como pico este valor depotencia.
 
+<img width="1032" height="590" alt="image" src="https://github.com/user-attachments/assets/0923305a-959c-475e-ad04-8d698f69cff8" />
+
 - Ancho de Banda:
     9.0913 MHz. La diferencia entre los puntos donde inicia la señal y termina laseñal.
+
+<img width="1032" height="576" alt="image" src="https://github.com/user-attachments/assets/972401cf-7907-4653-97ed-6ccc877315e3" />
 
 - Resolución de ancho de banda (RBW):
     100 kHz. Para un RBW superior (entre 300kHz y 1MHz)no se percibe el salto entre ruido y señal. Para un RBW menor la visualización de la señalempieza a ser mejor.
