@@ -51,11 +51,11 @@ Se va a tomar como referencia la señal correspondiente a la frecuencia 90.7MHz 
 
 ## Comparativa de Equipos:
 
- - ¿Con cuál equipo le fue más fácil encontrar la señal?
+ **- ¿Con cuál equipo le fue más fácil encontrar la señal?**
 
 Con el SDR se hace mucho más sencilla la tarea de búsqueda de señales debido a su interfaz, además, las señales visualizadas no tienen tanta dependencia del entorno como lo hace el analizador de espectros.
 
- - ¿Qué ventajas y desventajas tiene cada equipo para esta tarea de reconocimiento?
+ **- ¿Qué ventajas y desventajas tiene cada equipo para esta tarea de reconocimiento?**
   
 ### SDR:
   
@@ -91,3 +91,7 @@ Con el SDR se hace mucho más sencilla la tarea de búsqueda de señales debido 
 - Limitaciones en frecuencia (aprox freq max 600MHz)
 
 - Menor precisión de medida en dominio de la frecuencia
+
+**- ¿Cuál de los tres equipos ofrece la medida de frecuencia más confiable y precisa?**
+
+- El analizador de espectros trabajando en el dominio de la frecuencia se vuelve el equipo más preciso, ya que, posee herramientas especializadas para este dominio.
