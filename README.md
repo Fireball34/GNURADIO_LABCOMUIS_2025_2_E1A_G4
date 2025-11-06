@@ -1,90 +1,130 @@
-# Fase 1: Exploración y Descubrimiento (El Ojo Panorámico delSDR)
+# Laboratorio de Comunicaciones
+## Universidad Industrial de Santander
 
-Se encuentra como señal más potente y estable una señal con frecuencia central de 782 MHz y unaganancia máxima de -67 dB, se considera que esta señal corresponde a una portadora de telefoníamóvil por su estabilidad y banda considerablemente amplia de aproximadamente 10 MHz.
+Utilice esta [plantilla](#integrantes) para presentar sus informes de laboratorio. 
 
-<img width="1033" height="583" alt="image" src="https://github.com/user-attachments/assets/39891ce1-0369-4d13-aa2c-0ed5ea7c661a" />
+Al final de la plantilla encontrará algunos ejemplos para enriquecer su informe, incluyendo cómo insertar imágenes, tablas y ecuaciones, así como generar hipervínculos a su repositorio o al propio informe. Ir a [ejemplos en Markdown](#ejemplos-usando-markdown)
 
-También se captan cerca a los 643 MHz picos frecuentes con hasta -43 dB de ganancia y una bandamuy estrecha, se le asocia estas señales a interferencias.
+### Importante
 
-<img width="1032" height="585" alt="image" src="https://github.com/user-attachments/assets/44d878b0-475a-4a7d-b987-ef513e1da4cf" />
+- En caso de utilizar herramientas de Inteligencia Artificial para asistencia en la redacción, análisis o cualquier otra tarea, de debe especificar en la sección de **Declaración de Originalidad y Responsabilidad** aclarando el alcance y propósito de su uso.
+- Cualquier omisión en la declaración del uso de IA o la presentación de contenido plagiado será penalizado con nota de 0.0 y reporte a la coordinación del programa.
+- Si emplea referencias disponibles en línea, agregue los hipervínculos respectivos.  
 
-Rondando los 100 MHz se encuentran múltiples señales de radio FM evidenciadas como múltiples picos estables.
+---
+# Práctica 1: TÍTULO PRÁCTICA
 
-<img width="1037" height="584" alt="image" src="https://github.com/user-attachments/assets/d2907ffa-ec29-4c6b-bdb2-26ff9eddff75" />
+### Integrantes
+- **PRIMER INTEGRANTE** - Código
+- **SEGUNDO INTEGRANTE** - Código
 
-Cerca de los 475 MHz se hallan señales con un promedio de -68 dB de ganancia, asociando esta señala televisión digital con una banda de buen anchor aproximadamente 5 MHz pero no tan estable comola primera señal.
+Escuela de Ingenierías Eléctrica, Electrónica y de Telecomunicaciones  
+Universidad Industrial de Santander
 
-<img width="1035" height="584" alt="image" src="https://github.com/user-attachments/assets/847a5d8c-83bc-4c9a-90c2-927d7fd623ad" />
+### Fecha
+31 de diciembre de 2030
 
-# Fase 2: Análisis de Precisión (La Lupa del Analizador)
+---
 
-- Frecuencia Central:
-    783.007614 MHz. Se toma este parametro, ya que, se reconoce como elpunto medio entre las dos frecuencias visualizadas donde comienza y termina la señal.
+## Declaración de Originalidad y Responsabilidad
+Los autores de este informe certifican que el contenido aquí presentado es original y ha sido elaborado de manera independiente. Se han utilizado fuentes externas únicamente como referencia y han sido debidamente citadas.
 
-<img width="1033" height="576" alt="image" src="https://github.com/user-attachments/assets/22f8789e-160b-4647-b732-336588f4c173" />
+Asimismo, los autores asumen plena responsabilidad por la información contenida en este documento. 
 
-- Potencia:
-    -67.52 dBm. El marcador en su modo seat to peak toma como pico este valor depotencia.
+Uso de IA: [Indicar si se usó IA y para qué aspectos específicos, por ejemplo: "Se utilizó ChatGPT para reformular secciones del texto y verificar gramática, pero el contenido técnico fue desarrollado íntegramente por los autores."]
 
-<img width="1032" height="590" alt="image" src="https://github.com/user-attachments/assets/0923305a-959c-475e-ad04-8d698f69cff8" />
+---
+## Contenido
 
-- Ancho de Banda:
-    9.0913 MHz. La diferencia entre los puntos donde inicia la señal y termina laseñal.
+### Resumen
+Descripción en no más de 150 palabras del contenido de la práctica. Debe ser conciso y brindar una idea clara sobre el trabajo realizado y sus conclusiones.
 
-<img width="1032" height="576" alt="image" src="https://github.com/user-attachments/assets/972401cf-7907-4653-97ed-6ccc877315e3" />
+**Palabras clave:** de 2 a 5 palabras clave. 
 
-- Resolución de ancho de banda (RBW):
-    100 kHz. Para un RBW superior (entre 300kHz y 1MHz)no se percibe el salto entre ruido y señal. Para un RBW menor la visualización de la señalempieza a ser mejor.
+### Introducción
+Cada práctica contará con preguntas orientadoras para la elaboración de la introducción. Por ejemplo: 
+- ¿Qué tan importante es la teoría de muestreo en el procesamiento de señales?
+- ¿Cuáles son los principales potenciales de GNURADIO en el laboratorio de comunicaciones?
+- ¿Qué pasa cuando se alcanza el límite de Nyquist?
+- ¿Qué tan alta debe ser la relación entre la frecuencia de muestreo y la frecuencia de la señal para visualizar la señal correctamente?
+- ¿Cuándo es importante interpolar una señal?
+- ¿Cuándo es importante diezmar una señal?
+- ¿Qué pasa cuando se asigna una frecuencia de muestreo inadecuada?
 
-- SPAN:
-    12MHz. Este valor de SPAM permite visualizar todo el ancho de banda de la señal y unborde de ruido.
+### Procedimiento
+Debe basarse en las acciones efectivamente realizadas durante el laboratorio, describiendo los procesos realizados y los resultados obtenidos. Para cada práctica se pueden brindar preguntas orientadoras o pasos a seguir para establecer lo que se espera lograr/estudiar/analizar/obtener/comparar. Por ejemplo:
+- Describa los procesos realizados en el laboratorio  y los resultados obtenidos.
+- ¿Cómo se alcanza el límite de Nyquist y que pasa cuando se disminuye de este?
+- ¿Por qué al interpolar una señal en GNURADIO su frecuencia disminuye?
+- ¿Por qué al diezmar una señal en GNURADIO su frecuencia aumenta?
+- ¿Cómo se puede determinar la frecuencia máxima de una señal desde lo experimental?
+- ¿Qué le sucede a una señal de audio cuando no se respeta el teorema de Nyquist?
+- Describa las funciones logradas con el Ecualizador desarrollado con GNURadio.
 
-# Fase 3. Visualización de la Onda
+### Conclusiones
+Se sintetizan los principales aportes y puntos relevantes de la práctica, evitando repetir lo ya consignado en las otras secciones del informe. 
 
-Se va a tomar como referencia la señal correspondiente a la frecuencia 90.7MHz debido a que lafrecuencia usada en los puntos anteriores de 783MHz esta fuera de los limites del osciloscopio. Usandomediciones automáticas, el voltaje pico a pico medido por medio del osciloscopio fue de 8.3986mVcon una frecuencia de 5.88MHz. La señal en el dominio del tiempo presento fluctuaciones debidas a lacombinación de distintas frecuencias en esa misma señal lo cual dificulta su analisis en el dominio deltiempo, pero por medio de la FFT su comportamiento permite un mejor análisis. Aparentemente losvalores máximos y mínimos de tensión se mantienen,es decir, no se presentan picos anormales detensión a lo largo de la señal
+### Referencias
+Ejemplo de referencia:
 
-![Osciloscopio](https://github.com/user-attachments/assets/7cc4c471-c529-4064-9abf-43e182b5e884)
+- [Proakis, 2014] J. Proakis, M. Salehi. Fundamentals of communication systems. 2 ed. England: Pearson Education Limited, 2014. p. 164-165, 346. Chapter 5 In: [Biblioteca UIS](https://uis.primo.exlibrisgroup.com/permalink/57UIDS_INST/63p0of/cdi_askewsholts_vlebooks_9781292015699)
 
-# Resultados y Hallazgos
+---
+# Ejemplos usando Markdown
 
-# Análisis y Discusión
+Volver al [INICIO](#laboratorio-de-comunicaciones)
 
-- Comparativa de Equipos:
+## Inclusión de Imágenes
+### Imagen de referencia dentro del repositorio:
+![Networking](my%20file/test.png)
 
-¿Con cuál equipo le fue más fácil encontrar la señal?
+### Imagen de fuente externa
+![GNU Radio logo](https://kb.ettus.com/images/thumb/5/50/gnuradio.png/600px-gnuradio.png)
 
-Con el SDR se hace mucho más sencilla la tarea de búsqueda de señales debido a su interfaz, además, las señales visualizadas no tienen tanta dependencia del entorno como lo hace el analizador de espectros.
+### Uso de html para cambiar escala de la imagen
+<img src="https://kb.ettus.com/images/thumb/5/50/gnuradio.png/600px-gnuradio.png" alt="GNU Radio Logo" width="300">
 
-¿Qué ventajas y desventajas tiene cada equipo para esta tarea de reconocimiento?
-  
-- SDR:
-  
-Ventajas:
-  
-Ajustabilidad de parámetros para facilitar la tarea requerida.
-Permite un desplazamiento en la búsqueda de frecuencia mucho más fluido.
+## Creación de hipevínculos 
+- [Aprende Markdown](https://markdown.es/)
+- [Más acerca de Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+- [Abrir documento en el repositorio](my%20file/test_file.txt). Si hay espacios en la ruta de su archivo, reemplácelos por `%20`.
+- Ir a una sección de este documento. Por ejemplo: [Ir a Contenido](#contenido) Tenga en cuenta escribir el título de la sección en minúsculas y los espacios reemplazarlos por guiones.
+## Uso de Expresiones Matemáticas
+Se pueden incluir ecuaciones en el archivo `README.md` utilizando sintaxis similar a [LaTeX](https://manualdelatex.com/tutoriales/ecuaciones):
 
-Desventajas:
-                    
-Requiere una amplia configuración y conocimiento para ajustar de la mejor forma la herramienta.
+### Ecuaciones en Línea
+```
+La energía de una señal exponencial es $E = \int_0^\infty A^2 e^{-2t/\tau} dt$.
+```
+**Salida renderizada:**
+La energía de una señal exponencial es $E = \int_0^\infty A^2 e^{-2t/\tau} dt$.
 
-- Analizador de espectros:
+### Ecuaciones en Bloque
+```
+$$E = \int_0^\infty A^2 e^{-2t/\tau} dt = \frac{A^2 \tau}{2}$$
+```
+**Salida renderizada**
+$$E = \int_0^\infty A^2 e^{-2t/\tau} dt = \frac{A^2 \tau}{2}$$
 
-Ventajas:
- Mayor precisión para la medida de potencia de la señal
-                    No requiere de muchos ajustes para poder captar las señales.
+## Creación de Tablas
 
-Desventajas:
-                    
-Realizar barridos de búsqueda es complejo debido a la capacidad de actualización (poca fluidez) de las medidas al desplazarse en frecuencia.
+**Tabla 1.** Ejemplo de tabla en Markdown.
 
-- Osciloscopio:
+| Parámetro | Valor |
+|-----------|-------|
+| Frecuencia (Hz) | 1000 |
+| Amplitud (V) | 5 |
+| Ciclo útil (%) | 50 |
 
-Ventajas:
-                    
-Permite obtener información de amplitud y forma de onda
+## Inclusión de código
 
-Desventajas:
-                    
-Limitaciones en frecuencia (aprox freq max 600MHz)
-Menor precisión de medida en dominio de la frecuencia
+```python
+def hello_world():
+    print("Hello, World!")
+```
+
+También es posible resaltar texto tipo código como `print("Hello, World!")`.
+
+---
+
+Volver al [INICIO](#laboratorio-de-comunicaciones)
