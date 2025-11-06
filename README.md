@@ -126,3 +126,6 @@ Lo que explica esto, es el dominio en el que trabaja cada equipo, donde el anali
 
 Al trabajar en el dominio del tiempo y captando la señal con un antena, se debe tener en cuenta que la señal se puede encontrar modulada dependiendo de la frecuencia, este equipo no está especializado para este tipo de tareas por sí solo, de aquí surge la necesidad de usar la herramienta de FFT para una mejor visualización.
 
+## Resuma el rol estratégico de cada instrumento:
+
+Definiéndolo por etapas, principalmente se usaría el SDR en un trabajo de exploración y búsqueda de señales de interés, pasando luego al uso del analizador con el objetivo de visualizar de forma precisa el comportamiento y características de la señal. Por último, se requiere el osciloscopio en la tarea de definir y caracterizar la señal con su forma de onda y demás parámetros.
