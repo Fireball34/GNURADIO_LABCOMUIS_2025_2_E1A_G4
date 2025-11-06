@@ -59,7 +59,7 @@ Con el SDR se hace mucho más sencilla la tarea de búsqueda de señales debido 
   
 ### SDR:
   
-#### Ventajas:
+**Ventajas:**
   
 Ajustabilidad de parámetros para facilitar la tarea requerida.
 Permite un desplazamiento en la búsqueda de frecuencia mucho más fluido.
