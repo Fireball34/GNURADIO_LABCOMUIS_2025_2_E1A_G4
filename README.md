@@ -34,3 +34,11 @@ La potencia registrada es: -13.67 dBm a 150MHz
 
 ![Fase 2 (Avanzado) -78 14 dBm, a 800MHz](https://github.com/user-attachments/assets/e14c4df9-66ef-4199-8d5e-fb2d7a29650b)
 
+
+
+|  Cable  | Frecuencia (MHz) | P_in (dBm) | P_out (dBm) | Atenuación teórica (dB) | Atenuación experimental (dB)
+| 118 ft  |       50         |   -13.67   |   -14.56    |          3.776          | 0.89 |
+| 118 ft  |       100        |   -13.67   |   -16.50    |          5.31           | 2.83 |
+| 118 ft  |       200        |   -13.67   |   -20.33    |          7.55           | 6.33 |
+| 118 ft  |       500        |   -13.67   |   -32.91    |          12.5 | 19.24 |
+| 118 ft  |       1000       |   -13.67   |   -43.31    | 17.11 | 29.64 |
