@@ -47,6 +47,18 @@ Se va a tomar como referencia la señal correspondiente a la frecuencia 90.7MHz 
 
 # Resultados y Hallazgos
 
+## Medición con SDR:
+
+<img width="1033" height="578" alt="image" src="https://github.com/user-attachments/assets/074040cf-974e-499e-b8c6-522ca7cfac98" />
+
+## Medición con analizador de espectros:
+
+<img width="1034" height="576" alt="image" src="https://github.com/user-attachments/assets/22645a93-d48d-4c21-8900-dcce78f2a419" />
+
+## Medición con el osciloscopio:
+
+<img width="1035" height="659" alt="image" src="https://github.com/user-attachments/assets/729763c8-cc07-4b20-9ebb-91a16733cdf8" />
+
 # Análisis y Discusión
 
 ## Comparativa de Equipos:
@@ -92,6 +104,25 @@ Con el SDR se hace mucho más sencilla la tarea de búsqueda de señales debido 
 
 - Menor precisión de medida en dominio de la frecuencia
 
+## Precisión:
+
 - **¿Cuál de los tres equipos ofrece la medida de frecuencia más confiable y precisa?**
 
 El analizador de espectros trabajando en el dominio de la frecuencia se vuelve el equipo más preciso, ya que, posee herramientas especializadas para este dominio.
+
+- **¿Por qué cree que es así?**
+
+Porque al trabajar con SDR las señales en frecuencia suelen ser un poco volátiles y sus medidas de potencia no reflejan mucho los factores del entorno.
+
+## La Conexión Tiempo-Frecuencia:
+
+- **Explique con sus palabras que representa el pico que se observa en el analizador de espectros en relación con la onda sinusoidal que se observa en el osciloscopio.**
+
+Lo que explica esto, es el dominio en el que trabaja cada equipo, donde el analizador de espectros trabaja en frecuencia, mostrando realmente las portadoras de las señales en dicho dominio; sin embargo, el osciloscopio toma la forma de la señal en el dominio del tiempo y justamente esta es la relación de una señal sinusoidal en el tiempo siendo un impulso en frecuencia.
+
+## Desafíos:
+
+- **Describa las dificultades que se encuentran especialmente al intentar visualizar la señal en el osciloscopio. ¿Cómo las resuelvo?**
+
+Al trabajar en el dominio del tiempo y captando la señal con un antena, se debe tener en cuenta que la señal se puede encontrar modulada dependiendo de la frecuencia, este equipo no está especializado para este tipo de tareas por sí solo, de aquí surge la necesidad de usar la herramienta de FFT para una mejor visualización.
+
