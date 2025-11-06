@@ -1,4 +1,4 @@
-# Fase 1: Exploración y Descubrimiento (El Ojo Panorámico delSDR)
+# Fase 1: Exploración y Descubrimiento (El Ojo Panorámico del SDR)
 
 Se encuentra como señal más potente y estable una señal con frecuencia central de 782 MHz y unaganancia máxima de -67 dB, se considera que esta señal corresponde a una portadora de telefoníamóvil por su estabilidad y banda considerablemente amplia de aproximadamente 10 MHz.
 
