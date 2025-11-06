@@ -49,42 +49,43 @@ Se va a tomar como referencia la señal correspondiente a la frecuencia 90.7MHz 
 
 # Análisis y Discusión
 
-- Comparativa de Equipos:
+## Comparativa de Equipos:
 
-¿Con cuál equipo le fue más fácil encontrar la señal?
+ - ¿Con cuál equipo le fue más fácil encontrar la señal?
 
 Con el SDR se hace mucho más sencilla la tarea de búsqueda de señales debido a su interfaz, además, las señales visualizadas no tienen tanta dependencia del entorno como lo hace el analizador de espectros.
 
-¿Qué ventajas y desventajas tiene cada equipo para esta tarea de reconocimiento?
+ - ¿Qué ventajas y desventajas tiene cada equipo para esta tarea de reconocimiento?
   
-- SDR:
+### SDR:
   
-Ventajas:
+#### Ventajas:
   
 Ajustabilidad de parámetros para facilitar la tarea requerida.
 Permite un desplazamiento en la búsqueda de frecuencia mucho más fluido.
 
-Desventajas:
+#### Desventajas:
                     
 Requiere una amplia configuración y conocimiento para ajustar de la mejor forma la herramienta.
 
-- Analizador de espectros:
+### Analizador de espectros:
 
-Ventajas:
- Mayor precisión para la medida de potencia de la señal
-                    No requiere de muchos ajustes para poder captar las señales.
+#### Ventajas:
 
-Desventajas:
+Mayor precisión para la medida de potencia de la señal
+No requiere de muchos ajustes para poder captar las señales.
+
+#### Desventajas:
                     
 Realizar barridos de búsqueda es complejo debido a la capacidad de actualización (poca fluidez) de las medidas al desplazarse en frecuencia.
 
-- Osciloscopio:
+### Osciloscopio:
 
-Ventajas:
+#### Ventajas:
                     
 Permite obtener información de amplitud y forma de onda
 
-Desventajas:
+#### Desventajas:
                     
 Limitaciones en frecuencia (aprox freq max 600MHz)
 Menor precisión de medida en dominio de la frecuencia
