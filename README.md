@@ -34,7 +34,9 @@ La potencia registrada es: -13.67 dBm a 150MHz
 
 ![Fase 2 (Avanzado) -78 14 dBm, a 800MHz](https://github.com/user-attachments/assets/e14c4df9-66ef-4199-8d5e-fb2d7a29650b)
 
+# Fase 3: Diagnóstico y Análisis
 
+## 
 
 | Cable | Frecuencia (MHz) | P_in (dBm) | P_out (dBm) | Atenuación teórica (dB) | Atenuación experimental (dB) |
 |-------|------------------|------------|-------------|-------------------------|------------------------------|
