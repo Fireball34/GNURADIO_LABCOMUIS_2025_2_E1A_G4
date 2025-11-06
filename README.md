@@ -71,7 +71,7 @@ Requiere una amplia configuración y conocimiento para ajustar de la mejor forma
 - Analizador de espectros:
 
 Ventajas:
-                    Mayor precisión para la medida de potencia de la señal
+ Mayor precisión para la medida de potencia de la señal
                     No requiere de muchos ajustes para poder captar las señales.
 
 Desventajas:
