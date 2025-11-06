@@ -59,33 +59,35 @@ Con el SDR se hace mucho más sencilla la tarea de búsqueda de señales debido 
   
 ### SDR:
   
-**Ventajas:**
+*Ventajas:*
   
-Ajustabilidad de parámetros para facilitar la tarea requerida.
-Permite un desplazamiento en la búsqueda de frecuencia mucho más fluido.
+- Ajustabilidad de parámetros para facilitar la tarea requerida.
 
-#### Desventajas:
+- Permite un desplazamiento en la búsqueda de frecuencia mucho más fluido.
+
+*Desventajas:*
                     
-Requiere una amplia configuración y conocimiento para ajustar de la mejor forma la herramienta.
+- Requiere una amplia configuración y conocimiento para ajustar de la mejor forma la herramienta.
 
 ### Analizador de espectros:
 
-#### Ventajas:
+*Ventajas:*
 
-Mayor precisión para la medida de potencia de la señal
-No requiere de muchos ajustes para poder captar las señales.
+- Mayor precisión para la medida de potencia de la señal
+- No requiere de muchos ajustes para poder captar las señales.
 
-#### Desventajas:
+*Desventajas:*
                     
-Realizar barridos de búsqueda es complejo debido a la capacidad de actualización (poca fluidez) de las medidas al desplazarse en frecuencia.
+- Realizar barridos de búsqueda es complejo debido a la capacidad de actualización (poca fluidez) de las medidas al desplazarse en frecuencia.
 
 ### Osciloscopio:
 
-#### Ventajas:
+*Ventajas:*
                     
-Permite obtener información de amplitud y forma de onda
+- Permite obtener información de amplitud y forma de onda
 
-#### Desventajas:
+*Desventajas:*
                     
-Limitaciones en frecuencia (aprox freq max 600MHz)
-Menor precisión de medida en dominio de la frecuencia
+- Limitaciones en frecuencia (aprox freq max 600MHz)
+
+- Menor precisión de medida en dominio de la frecuencia
