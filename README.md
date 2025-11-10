@@ -1,1 +1,4 @@
-# GNURADIO_LABCOMUIS_2025_2_E1A_G4
+# MISIÓN 4: VIGILANCIA DEL ESPECTRO LEGAL
+
+## Fase 1: Inteligencia y Preparación (Investigación Regulatoria)
+
