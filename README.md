@@ -48,6 +48,15 @@ La potencia registrada es: -13.67 dBm a 150MHz
 | 118 ft | 500 | -13.67 | -32.91 | 12.5 | 19.24 |
 | 118 ft | 1000 | -13.67 | -43.31 | 17.11 | 29.64 |
 
+- Medición para cable de 118 ft a 50 MHz
+![Fase 3 118 ft 50 MHz](https://github.com/user-attachments/assets/09fad8d6-95ef-4605-8e59-a371a7cea14b)
+
+- Medición para cable de 118 ft a 200 MHz
+![Fase 3 118 ft 200 MHz](https://github.com/user-attachments/assets/bcc29095-af11-486a-9546-ea2f4657772b)
+
+- Medición para cable de 118 ft a 1000 MHz
+![Fase 3 118 ft 1000 MHz](https://github.com/user-attachments/assets/9067d005-5a29-4b70-8dba-f4c01b92c182)
+
 ### Tabla para cable de 122 ft
 
 | Cable | Frecuencia (MHz) | P_in (dBm) | P_out (dBm) | Atenuación teórica (dB) | Atenuación experimental (dB) |
@@ -57,3 +66,32 @@ La potencia registrada es: -13.67 dBm a 150MHz
 | 122 ft | 200 | -13.67 | -20.66 | 7.8 | 6.99 |
 | 122 ft | 500 | -13.67 | -33.16 | 12.27 | 19.49 |
 | 122 ft | 1000 | -13.67 | -42.56 | 17.69 | 28.89 |
+
+- Medición para cable de 122 ft a 50 MHz
+![Fase 3 122 ft 50 MHz](https://github.com/user-attachments/assets/d5b5bf9a-0ee8-400b-892f-c39c277c74a0)
+
+- Medición para cable de 122 ft a 200 MHz
+![Fase 3 122 ft 200 MHz](https://github.com/user-attachments/assets/39889c5d-4738-4c07-8aaa-be8c78d39376)
+
+- Medición para cable de 122 ft a 1000 MHz
+![Fase 3 122 ft 1000 MHz](https://github.com/user-attachments/assets/da6136ce-29df-4168-9fc0-6839bcf77adf)
+
+## Análisis
+
+- Identificación de anomalias: Basado en la tabla de resultados, identifique claramente cuál es el cable "que mayor atenuación presenta" y justifique por qué su atenuación es significativamente mayor.
+
+**R/** El cable de 122 ft presenta mayor atenuación, esto debido a la relación de atenuación según el largo del cable. Ej: Para 50 MHz => 3.2 dB/100 ft, es decir, a mayor largo del cable mayor atenuación. Sin embargo, es sólo un poco mayor porque el otro cable era de 118 ft.
+
+- Análisis Causa-Raíz: ¿Qué posibles fallas físicas en un cable o conector podrían causar una atenuación tan alta?
+
+**R/** Conectores dañados podrían incluso dar una atenuación de -60 dB, por experiencia en el laboratorio lo decimos, ya que, por una mala conexión de un conector una señal que debía ser de -15 dBm nos daba -60 dBm aproximadamente.
+
+- (Si se realizó el reto avanzado): Analiza cómo cambió la atenuación de los cables al aumentar la frecuencia. ¿Es un comportamiento esperado? ¿Por qué?
+
+**R/** La atenuación aumentó demasiado al tener un cambio de 650 MHz, esto no es nada fuera de lo normal, para altas frecuencias hay diversos fenómenos físicos que afectan la transmisión en conductores, empeorandola.
+
+## Conclusiones
+
+Resume tus hallazgos y la importancia de medir la pérdida en las líneas de transmisión para garantizar la integridad de un enlace decomunicaciones.
+
+**R/** Es importante tener en cuenta y conocer los límites para las pérdidas en un enlace, esto permite interpretar mucho mejor la veracidad de la información en el receptor.
