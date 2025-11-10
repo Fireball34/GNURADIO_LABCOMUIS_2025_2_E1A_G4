@@ -36,7 +36,7 @@ La potencia registrada es: -13.67 dBm a 150MHz
 
 # Fase 3: Diagnóstico y Análisis
 
-## 
+## Diagnóstico
 
 | Cable | Frecuencia (MHz) | P_in (dBm) | P_out (dBm) | Atenuación teórica (dB) | Atenuación experimental (dB) |
 |-------|------------------|------------|-------------|-------------------------|------------------------------|
@@ -45,3 +45,10 @@ La potencia registrada es: -13.67 dBm a 150MHz
 | 118 ft | 200 | -13.67 | -20.33 | 7.55 | 6.33 |
 | 118 ft | 500 | -13.67 | -32.91 | 12.5 | 19.24 |
 | 118 ft | 1000 | -13.67 | -43.31 | 17.11 | 29.64 |
+
+| Cable | Frecuencia (MHz) | P_in (dBm) | P_out (dBm) | Atenuación teórica (dB) | Atenuación experimental (dB)
+| 122 ft | 50 | -13.67 | -14.57 | 3.9 | 0.9 |
+| 122 ft | 100 | -13.67 | -16.85 | 5.49 | 3.18 |
+| 122 ft | 200 | -13.67 | -20.66 | 7.8 | 6.99 |
+| 122 ft | 500 | -13.67 | -33.16 | 12.27 | 19.49 |
+| 122 ft | 1000 | -13.67 | -42.56 | 17.69 | 28.89 |
