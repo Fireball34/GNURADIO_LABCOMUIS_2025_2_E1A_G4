@@ -36,11 +36,11 @@ Según datos oficiales de MinTIC se obtiene la siguiente lista de emisoras en el
 | 7 | Imposible comprender audio (UTS - TU RADIO STEREO) | 101.7 | -72.5 | Muy baja |
 | 8 | SANTO TOMAS ESTEREO | 96.2 | -69.36 | Media |
 | 9 | POLICIA NACIONAL BUCARAMANGA | 91.7 | -47.73 | Buena |
-| 10 | COLOMBIA ESTEREO |
-| 11 |
-| 12 |
-| 13 |
-| 14 |
-| 15 |
-| 16 |
-| 17 |
+| 10 | COLOMBIA ESTEREO | 92.9 | -44.36 | Buena |
+| 11 | EMISORA CULTURAL LUIS CARLOS GALAN SARMIENTO | 100.7 | -51.14 | Buena |
+| 12 | LA U RADIO | 107.7 | -76.12 | Muy baja |
+| 13 | BÉSAME | 104.7 | -60.05 | Buena |
+| 14 | No identificada en radio difusión sonora | 96.9 | -53.08 | Buena |
+| 15 | Imposible comprender audio (RADIO OLIMPICA F.M ESTEREO) | 97.7 | < -75 | Ruido |
+| 16 | RADIO UNO | 106.7 | -63.91 | Buena |
+| 17 | RADIO NACIONAL | 92.3 | -58.47 | Media-Buena |
