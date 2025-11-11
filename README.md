@@ -22,3 +22,25 @@ Según datos oficiales de MinTIC se obtiene la siguiente lista de emisoras en el
 | 104.7 | HJYF | BÉSAME | Comercial | C |
 | 97.7 | HJP23 | RADIO OLIMPICA F.M ESTEREO | Comercial | C |
 | 106.7 | HJYC | RADIO UNO | Comercial | C |
+
+## FAse 2: Monitoreo de Campo (Escaneo del Espectro)
+
+| Emisora | Nombre | Frecuencia medida (en MHz) | Ganancia max medida (en dB) | Calidad de la señal medida |
+|---------|--------|----------------------------|-----------------------------|----------------------------|
+| 1 | EMISORA COMUNITARIA LA BRUJULA - ÁREA DE SERVICIO No. 1 | 93.4 | -58.47 | Media-baja |
+| 2 | LA GUAPACHOSA 105,1 | 105.11 | -65.7 | Baja |
+| 3 | TROPICANA | 95.7 | -41.34 | Buena |
+| 4 | LA FM | 99.7 | -40.97 | Buena | 
+| 5 | LA MEGA ESTÉREO | 102.5 | -63.4 | Muy baja |
+| 6 | W RADIO | 90.7 | -47.19 | Buena |
+| 7 | Imposible comprender audio (UTS - TU RADIO STEREO) | 101.7 | -72.5 | Muy baja |
+| 8 | SANTO TOMAS ESTEREO | 96.2 | -69.36 | Media |
+| 9 | POLICIA NACIONAL BUCARAMANGA | 91.7 | -47.73 | Buena |
+| 10 | COLOMBIA ESTEREO |
+| 11 |
+| 12 |
+| 13 |
+| 14 |
+| 15 |
+| 16 |
+| 17 |
