@@ -100,3 +100,6 @@ RADIO NACIONAL
 
 <img width="1600" height="892" alt="image" src="https://github.com/user-attachments/assets/27ace926-1dee-458e-a743-8824b684c2cb" />
 EMISORA COMUNITARIA LA BRUJULA - ÁREA DE SERVICIO No. 1
+
+<img width="1600" height="892" alt="image" src="https://github.com/user-attachments/assets/0e14a4ef-db12-4446-8b23-26633765a1bb" />
+Imposible comprender audio (RADIO OLIMPICA F.M ESTEREO) --> RUIDO
