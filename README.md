@@ -25,6 +25,8 @@ Según datos oficiales de MinTIC se obtiene la siguiente lista de emisoras en el
 
 ## FAse 2: Monitoreo de Campo (Escaneo del Espectro)
 
+
+
 | Emisora | Nombre | Frecuencia medida (en MHz) | Ganancia max medida (en dB) | Calidad de la señal medida |
 |---------|--------|----------------------------|-----------------------------|----------------------------|
 | 1 | EMISORA COMUNITARIA LA BRUJULA - ÁREA DE SERVICIO No. 1 | 93.4 | -58.47 | Media-baja |
@@ -44,3 +46,6 @@ Según datos oficiales de MinTIC se obtiene la siguiente lista de emisoras en el
 | 15 | Imposible comprender audio (RADIO OLIMPICA F.M ESTEREO) | 97.7 | < -75 | Ruido |
 | 16 | RADIO UNO | 106.7 | -63.91 | Buena |
 | 17 | RADIO NACIONAL | 92.3 | -58.47 | Media-Buena |
+
+<img width="1600" height="892" alt="image" src="https://github.com/user-attachments/assets/7d0cef09-22dd-4588-bb19-a30edcf9bbfe" />
+EMISORA COMUNITARIA LA BRUJULA - ÁREA DE SERVICIO No. 1
