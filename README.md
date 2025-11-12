@@ -7,7 +7,7 @@ Según datos oficiales de MinTIC se obtiene la siguiente lista de emisoras en el
 | Frecuencia asignada (en MHz) | Distintivo de llamada | Nombre comercial de la emisora | Clase de la emisora (por programación) | Clase de la emisora (por PTNRS) |
 |------------------------------|-----------------------|--------------------------------|----------------------------------------|---------------------------------|
 | 93.4 | HJU94 | EMISORA COMUNITARIA LA BRUJULA - ÁREA DE SERVICIO No. 1 | Comunitaria | D |
-| 105.1 | HJU95 | LA GUAPACHOSA 105.1 | Comunitaria | D |
+| 105.1 | HJU95 | LA GUAPACHOSA 105,1 | Comunitaria | D |
 | 95.7 | HJNH | TROPICANA | Comercial | B |
 | 99.7 | HJDY | LA FM | Comercial | B |
 | 102.5 | HJQ66 | LA MEGA ESTÉREO | Comercial | B |
@@ -32,9 +32,9 @@ Según datos oficiales de MinTIC se obtiene la siguiente lista de emisoras en el
 | 1 | EMISORA COMUNITARIA LA BRUJULA - ÁREA DE SERVICIO No. 1 | 93.4 | -58.47 | Media-baja |
 | 2 | LA GUAPACHOSA 105,1 | 105.11 | -65.7 | Baja |
 | 3 | TROPICANA | 95.7 | -41.34 | Buena |
-| 4 | LA FM | 99.7 | -40.97 | Buena | 
+| 4 | LA FM | 99.7 | -39.98 | Buena | 
 | 5 | LA MEGA ESTÉREO | 102.5 | -63.4 | Muy baja |
-| 6 | W RADIO | 90.7 | -47.19 | Buena |
+| 6 | W RADIO | 90.701 | -47.99 | Buena |
 | 7 | Imposible comprender audio (UTS - TU RADIO STEREO) | 101.7 | -72.5 | Muy baja |
 | 8 | SANTO TOMAS ESTEREO | 96.2 | -69.36 | Media |
 | 9 | POLICIA NACIONAL BUCARAMANGA | 91.7 | -47.73 | Buena |
@@ -103,3 +103,15 @@ EMISORA COMUNITARIA LA BRUJULA - ÁREA DE SERVICIO No. 1
 
 <img width="1600" height="892" alt="image" src="https://github.com/user-attachments/assets/0e14a4ef-db12-4446-8b23-26633765a1bb" />
 Imposible comprender audio (RADIO OLIMPICA F.M ESTEREO) --> RUIDO
+
+## Fase 3: Análisis y Cruce de Datos
+
+| Emisora | Frecuencia asiganda (en MHz) | Frecuencia medida con el SDR (en MHZ) | Clasificación |
+|---------|------------------------------|---------------------------------------|---------------|
+| EMISORA COMUNITARIA LA BRUJULA - ÁREA DE SERVICIO No. 1 | 93.4 | 93.4 | Coincidencia legal |
+| LA GUAPACHOSA 105,1 | 105.1 | 105.117 | Coincidencia legal |
+| TROPICANA | 95.7 | 95.697 | Coincidencia legal |
+| LA FM | 99.7 | 99.705 | Coincidencia legal |
+| LA MEGA ESTÉREO | 102.5 | 102.5 | Coincidencia legal |
+| W RADIO | 90.7 | 90.701 | Coincidencia legal |
+| UTS - TU RADIO STEREO
