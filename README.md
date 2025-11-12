@@ -114,4 +114,15 @@ Imposible comprender audio (RADIO OLIMPICA F.M ESTEREO) --> RUIDO
 | LA FM | 99.7 | 99.705 | Coincidencia legal |
 | LA MEGA ESTÉREO | 102.5 | 102.5 | Coincidencia legal |
 | W RADIO | 90.7 | 90.701 | Coincidencia legal |
-| UTS - TU RADIO STEREO
+| UTS - TU RADIO STEREO | 101.7 | 101.7 | COincidencia legal |
+| SANTO TOMAS ESTEREO | 96.2 | 96.201 | Coincidencia legal |
+| POLICIA NACIONAL BUCARAMANGA | 91.7 | 91.698 | Coincidencia legal |
+| COLOMBIA ESTEREO | 92.9 | 92.899 | Coincidencia legal |
+| EMISORA CULTURAL LUIS CARLOS GALAN SARMIENTO | 100.7 | 100.7 | Coincidencia legal |
+| EMISORA COMUNITARIA EN FLORIDABLANCA | 88.8 | No encontrada | Transmisión no identificada |
+| LA U RADIO | 107.7 | 107.701 | Coincidencia legal |
+| BÉSAME | 104.7 | 104.701 | Coincidencia legal |
+| NO RECONOCIDA | X | 96.901 | Transmisión no identificada |
+| RADIO OLIMPICA F.M ESTEREO | 97.7 | No encontrada | Transmisión no identificada |
+| RADIO UNO | 106.7 | 106.702 | coincidencia legal |
+| RADIO NACIONAL | No encontrada en listado inicial para Bucaramanga | 92.3 | Transmisión no identificada |
