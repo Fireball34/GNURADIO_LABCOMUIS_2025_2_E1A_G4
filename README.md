@@ -109,14 +109,14 @@ Imposible comprender audio (RADIO OLIMPICA F.M ESTEREO) --> RUIDO
 | Emisora | Frecuencia asiganda (en MHz) | Frecuencia medida con el SDR (en MHZ) | Clasificación |
 |---------|------------------------------|---------------------------------------|---------------|
 | EMISORA COMUNITARIA LA BRUJULA - ÁREA DE SERVICIO No. 1 | 93.4 | 93.4 | Coincidencia legal |
-| LA GUAPACHOSA 105,1 | 105.1 | 105.117 | Coincidencia legal |
-| TROPICANA | 95.7 | 95.697 | Coincidencia legal |
+| LA GUAPACHOSA 105,1 | 105.1 | 105.117 | Posible desviación |
+| TROPICANA | 95.7 | 95.697 | Posible desviación |
 | LA FM | 99.7 | 99.705 | Coincidencia legal |
 | LA MEGA ESTÉREO | 102.5 | 102.5 | Coincidencia legal |
 | W RADIO | 90.7 | 90.701 | Coincidencia legal |
 | UTS - TU RADIO STEREO | 101.7 | 101.7 | COincidencia legal |
 | SANTO TOMAS ESTEREO | 96.2 | 96.201 | Coincidencia legal |
-| POLICIA NACIONAL BUCARAMANGA | 91.7 | 91.698 | Coincidencia legal |
+| POLICIA NACIONAL BUCARAMANGA | 91.7 | 91.698 | Posible desviación |
 | COLOMBIA ESTEREO | 92.9 | 92.899 | Coincidencia legal |
 | EMISORA CULTURAL LUIS CARLOS GALAN SARMIENTO | 100.7 | 100.7 | Coincidencia legal |
 | EMISORA COMUNITARIA EN FLORIDABLANCA | 88.8 | No encontrada | Transmisión no identificada |
