@@ -114,7 +114,7 @@ Imposible comprender audio (RADIO OLIMPICA F.M ESTEREO) --> RUIDO
 | LA FM | 99.7 | 99.705 | Coincidencia legal |
 | LA MEGA ESTÉREO | 102.5 | 102.5 | Coincidencia legal |
 | W RADIO | 90.7 | 90.701 | Coincidencia legal |
-| UTS - TU RADIO STEREO | 101.7 | 101.7 | COincidencia legal |
+| UTS - TU RADIO STEREO | 101.7 | 101.7 | Coincidencia legal |
 | SANTO TOMAS ESTEREO | 96.2 | 96.201 | Coincidencia legal |
 | POLICIA NACIONAL BUCARAMANGA | 91.7 | 91.698 | Posible desviación |
 | COLOMBIA ESTEREO | 92.9 | 92.899 | Coincidencia legal |
