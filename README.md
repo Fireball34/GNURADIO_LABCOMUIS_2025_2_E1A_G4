@@ -4,9 +4,9 @@
 ![Diagrama de flujo fase 1](Diagrama_de_flujo.png)
  Frecuencia de la Portadora: 433 MHz
 
-        Tasa de Muestreo (Sample Rate): 12.5 MS/s
+ Tasa de Muestreo (Sample Rate): 12.5 MS/s
 
-        Ganancia de Transmisión (TX Gain): 0 dB, para evitar daños en el puerto de entrada del osciloscopio o el analizador de espectro.
+ Ganancia de Transmisión (TX Gain): 0 dB, para evitar daños en el puerto de entrada del osciloscopio o el analizador de espectro.
 # Fase 2: Generación y Medición
 
    Conexión Segura: Conecte la salida de transmisión (TX1 / RX1) de su SDR al atenuador, y la salida del atenuador a la entrada del canal 1 del osciloscopio. Nota: recuerde que la amplitud maxima de la envolvente compleja debe ser menor a 0.5
