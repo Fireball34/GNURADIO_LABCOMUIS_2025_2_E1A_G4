@@ -29,7 +29,7 @@
   # Fase 3: Análisis de Espectro y Comparación
 ### Tabla Comparativa de Señales Moduladoras
 
-| Tipo de Señal Moduladora | Analizador de espectro | Características en el Dominio de la Frecuencia | Efecto de la Modulación |
+| Tipo de Señal Moduladora | Analizador de espectro | Descripción tecnica | Efecto de la Modulación |
 |--------------------------|--------------------------|------------------------------------------------|--------------------------|
 | Senoidal                | ![](Señal_senoidal_espectro.jpg) | |  |
 | Cuadrada                | ![](Señal_cuadrada_espectro.jpg) |  |  |
