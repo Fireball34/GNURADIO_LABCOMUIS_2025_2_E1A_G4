@@ -26,4 +26,15 @@
 
   Se utilizo una señal de audio de una canción.
  
-  
+  # Fase 3: Análisis de Espectro y Comparación
+### Tabla Comparativa de Señales Moduladoras
+
+| Tipo de Señal Moduladora | Analizador de espectro | Características en el Dominio de la Frecuencia | Efecto de la Modulación |
+|--------------------------|--------------------------|------------------------------------------------|--------------------------|
+| Senoidal                | ![](Señal_senoidal_espectro.jpg) | |  |
+| Cuadrada                | ![](Señal_cuadrada_espectro.jpg) |  |  |
+| Triangular              | ![](Señal_triangular_espectro.jpg) |  |  |
+| Diente de sierra        | ![](Señal_dientesierra_espectro.jpg) |  |  |
+| Audio          | ![](Señal_audio_espectro.jpg) |  |  |
+
+---
