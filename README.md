@@ -162,3 +162,6 @@ Se encontraron emisoras con licencia pero de una potencia muy baja o con mucha p
 
 ## Conclusiones y recomendaciones
 
+El espectro cuenta con la mayoría de sus señales oficiales y muy bien ubicadas en sus correspondientes frecuencias, sin embargo, se encuentra una potencia muy baja lo que podría volver muy sensible las transmisiones al ruido.
+
+Recomendaría buscar las emisoras EMISORA COMUNITARIA EN FLORIDABLANCA y RADIO OLIMPICA F.M ESTEREO. y tratar de identificar y vigilar las transmisiones cerca a la frecuencia de 96.901 MHz.
