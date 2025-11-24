@@ -31,9 +31,13 @@
 
 | Tipo de Señal Moduladora | Analizador de espectro | Descripción tecnica | Efecto de la Modulación |
 |--------------------------|--------------------------|------------------------------------------------|--------------------------|
-| Senoidal                | ![](Señal_senoidal_espectro.jpg) |Señal con frecuencia central de 150MHz con 2 bandas laterales en el espectro simetricas separadas ±10kHz de la portadora, siendo esta la de mayor potencia  | La modulacion AM es la que genera la aparicon de las bandas laterales, estas bandas laterales representan la información modulada y aumentan el ancho de banda de la señal. |
-| Cuadrada                | ![](Señal_cuadrada_espectro.jpg) |Señal con frecuencia central de 500MHz se observan bandas laterales en los armonicos impares de la señal cuadrada. Las primeras bandas laterales ocurren a ±15kHz respecto a la portadora  | La modulación AM con una señal cuadrada genera múltiples bandas laterales, ya que la onda cuadrada contiene una serie de armónicos impares. Cada armónico produce sus propias bandas alrededor de la portadora, ensanchando el espectro significativamente.  |
-| Triangular              | ![](Señal_triangular_espectro.jpg) |  |  |
-| Diente de sierra        | ![](Señal_dientesierra_espectro.jpg) |  |  |
-| Audio          | ![](Señal_audio_espectro.jpg) |  |  |
+| Senoidal                | ![](Señal_senoidal_espectro.jpg) |Señal con frecuencia central de 150MHz con 2 bandas laterales en el espectro simetricas separadas ±10kHz de la portadora, siendo esta la de mayor potencia.  | La modulacion AM es la que genera la aparicon de las bandas laterales, estas bandas laterales representan la información modulada y aumentan el ancho de banda de la señal. |
+| Cuadrada                | ![](Señal_cuadrada_espectro.jpg) |Señal con frecuencia central de 500MHz, se observan bandas laterales en los armonicos impares de la señal cuadrada. Las primeras bandas laterales ocurren a ±15kHz respecto a la portadora.  | La modulación AM con una señal cuadrada genera múltiples bandas laterales, ya que la onda cuadrada contiene una serie de armónicos impares. Cada armónico produce sus propias bandas alrededor de la portadora, ensanchando el espectro significativamente.  |
+| Triangular              | ![](Señal_triangular_espectro.jpg) |Señal con frecuencia central de 500MHz, con bandas laterales aproximadamente en ±15kHz. Debido los armonicos impares con tendencia decreciente los armonicos superiores se ven muy atenuados.   | La modulación AM con señal triangular produce armonicos impares muy atenuados, siendo un espectro mas angosto que la señal cuadrada. |
+| Diente de sierra        | ![](Señal_dientesierra_espectro.jpg) |Señal con frecuencia central de 500MHz, donde se observan multiples bandas laterales espaciadas ±15kHz entre si. La energia del espectro esta distribuida de manera satisfactoria con respecto a los armonicos.  | Debido a que la señal diente de sirrra contiene muchos armonicos, en el espectro se evidencian varias bandas laterales con menor atenuacion por lo cual son mas visibles,  |
+| Audio          | ![](Señal_audio_espectro.jpg) |Señal con frecuencia central de 500MHz donde el espectro muestra bandas laterales no discretas por lo que no presenta picos definidos.  | El audio al ser una señal no periodica sus componentes de frecuencia forman un espectro continuo, lo que produce bandas laterales anchas y una distribucion extendida de la energia cercana a la portadora. |
 
+# Conclusiones
+-La modulación AM reproduce el espectro de la moduladora alrededor de la portadora.
+-Las formas de onda con más armónicos generan espectros AM más anchos.
+- Se comprobó cómo el espectro final depende estrictamente del contenido frecuencial de la moduladora.
