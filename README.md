@@ -38,6 +38,7 @@
 | Audio          | ![](Señal_audio_espectro.jpg) |Señal con frecuencia central de 500MHz donde el espectro muestra bandas laterales no discretas por lo que no presenta picos definidos.  | El audio al ser una señal no periodica sus componentes de frecuencia forman un espectro continuo, lo que produce bandas laterales anchas y una distribucion extendida de la energia cercana a la portadora. |
 
 # Conclusiones
--La modulación AM reproduce el espectro de la moduladora alrededor de la portadora.
--Las formas de onda con más armónicos generan espectros AM más anchos.
+- La modulación AM reproduce el espectro de la moduladora alrededor de la portadora.
+- Las formas de onda con más armónicos generan espectros AM más anchos.
 - Se comprobó cómo el espectro final depende estrictamente del contenido frecuencial de la moduladora.
+- El ancho de banda de la señal modulada depende del contenido espectral de la señal moduladora.
