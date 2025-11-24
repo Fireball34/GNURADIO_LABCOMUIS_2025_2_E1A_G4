@@ -31,10 +31,9 @@
 
 | Tipo de Señal Moduladora | Analizador de espectro | Descripción tecnica | Efecto de la Modulación |
 |--------------------------|--------------------------|------------------------------------------------|--------------------------|
-| Senoidal                | ![](Señal_senoidal_espectro.jpg) | |  |
-| Cuadrada                | ![](Señal_cuadrada_espectro.jpg) |  |  |
+| Senoidal                | ![](Señal_senoidal_espectro.jpg) |Señal con frecuencia central de 150MHz con 2 bandas laterales en el espectro simetricas separadas ±10kHz de la portadora, siendo esta la de mayor potencia  | La modulacion AM es la que genera la aparicon de las bandas laterales, estas bandas laterales representan la información modulada y aumentan el ancho de banda de la señal. |
+| Cuadrada                | ![](Señal_cuadrada_espectro.jpg) |Señal con frecuencia central de 500MHz se observan bandas laterales en los armonicos impares de la señal cuadrada. Las primeras bandas laterales ocurren a ±15kHz respecto a la portadora  | La modulación AM con una señal cuadrada genera múltiples bandas laterales, ya que la onda cuadrada contiene una serie de armónicos impares. Cada armónico produce sus propias bandas alrededor de la portadora, ensanchando el espectro significativamente.  |
 | Triangular              | ![](Señal_triangular_espectro.jpg) |  |  |
 | Diente de sierra        | ![](Señal_dientesierra_espectro.jpg) |  |  |
 | Audio          | ![](Señal_audio_espectro.jpg) |  |  |
 
----
