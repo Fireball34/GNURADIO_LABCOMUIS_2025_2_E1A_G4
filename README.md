@@ -13,3 +13,9 @@ Buenas buenas gente, hoy desde la universidad industrial de Santander en Bucaram
 
 ### Objetivo especifico 1.2: Grabar y/o seleccionar los elementos de audio definidos en el guion.
 ### Objetivo Específico 1.3: Utilizar un software de edición de audio (ej. Audacity) para ensamblar, mezclar y masterizar los elementos en un único archivo de audio. El producto final debe ser un archivo estéreo (dos canales: Izquierdo y Derecho) en formato .wav para preservar la máxima calidad.
+ ![Grabacion del audio](Audio_lab_comu.jpg)
+
+## Fase 2
+
+### Objetivo Específico 2.1: Cargar el archivo de audio estéreo en el entorno de desarrollo (GNU Radio).
+
