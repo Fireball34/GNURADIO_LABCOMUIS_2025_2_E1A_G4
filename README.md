@@ -126,3 +126,6 @@ Imposible comprender audio (RADIO OLIMPICA F.M ESTEREO) --> RUIDO
 | RADIO OLIMPICA F.M ESTEREO | 97.7 | No encontrada | Transmisión no identificada |
 | RADIO UNO | 106.7 | 106.702 | coincidencia legal |
 | RADIO NACIONAL | No encontrada en listado inicial para Bucaramanga | 92.3 | Transmisión no identificada |
+
+###Lista de anomalías
+
