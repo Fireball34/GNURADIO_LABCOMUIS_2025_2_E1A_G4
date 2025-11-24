@@ -124,8 +124,33 @@ Imposible comprender audio (RADIO OLIMPICA F.M ESTEREO) --> RUIDO
 | BÉSAME | 104.7 | 104.701 | Coincidencia legal |
 | NO RECONOCIDA | X | 96.901 | Transmisión no identificada |
 | RADIO OLIMPICA F.M ESTEREO | 97.7 | No encontrada | Transmisión no identificada |
-| RADIO UNO | 106.7 | 106.702 | coincidencia legal |
+| RADIO UNO | 106.7 | 106.702 | Coincidencia legal |
 | RADIO NACIONAL | No encontrada en listado inicial para Bucaramanga | 92.3 | Transmisión no identificada |
 
-###Lista de anomalías
+## Análisis y discusión
 
+### Lista de anomalías
+
+Posibles desviaciones:
+
+- LA FM: Desviación de 0.005 MHz
+- LA GUAPACHOSA 105,1: Desviación de 0.017 MHz
+- TROPICANA: Desviación de 0.003 MHz
+- POLICIA NACIONAL BUCARAMANGA: Desviación de 0.002 MHz
+
+Transmisiones en reportes oficiales pero no encontradas:
+
+- EMISORA COMUNITARIA EN FLORIDABLANCA
+- RADIO OLIMPICA F.M ESTEREO
+
+TraNsmisiones no reportadas oficialmente:
+
+- NO RECONOCIDA a 96.901
+
+### Análisis de discrepancias
+
+- Hipótesis 1: Es posible que la transmisión no oficial sea alguna emisora nueva en etapa experimental o proceso de oficialización.
+
+- Hipótesis 2: Analizando los reportes oficiales de ciudades aledañas no se encuentran emisores en esta frecuencia o cercanas, por lo tanto, se descarta esta hipótesis.
+
+- Hipótesis 3: Sería díficil debido a la vigilancia de la ANE, pero hay una mínima posibilidad de que sea una emisora sin licencia que mantiene activa en ciertos horarios.
