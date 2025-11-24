@@ -154,3 +154,11 @@ TraNsmisiones no reportadas oficialmente:
 - Hipótesis 2: Analizando los reportes oficiales de ciudades aledañas no se encuentran emisores en esta frecuencia o cercanas, por lo tanto, se descarta esta hipótesis.
 
 - Hipótesis 3: Sería díficil debido a la vigilancia de la ANE, pero hay una mínima posibilidad de que sea una emisora sin licencia que mantiene activa en ciertos horarios.
+
+
+## Retos de la misión
+
+Se encontraron emisoras con licencia pero de una potencia muy baja o con mucha presencia de ruido (al oído), lo que genera dificultad a la hora de hacer análisis o identificación de la información transmitida.
+
+## Conclusiones y recomendaciones
+
