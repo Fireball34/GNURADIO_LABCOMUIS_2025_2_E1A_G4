@@ -42,7 +42,12 @@ En esta fase final, la señal procesada se lleva al dominio de radiofrecuencia p
 ![Modulacion y parametros](ModulacionFM.png)
 ### Objetivo especifico 3.3: Iniciar la transmisión y utilizar un receptor de radio FM comercial para sintonizar la señal.
 ### Objetivo Específico 3.4: Validar cualitativamente la calidad del audio recibido y confirmar que el indicador "Stereo" del receptor se activa, lo que prueba la correcta generación y detección del piloto de 19 kHz.
+![Diseño final](GNU_RADIO_LAB6.jpg)
 ![Sintonizacion de radio](Video_nuestra_radio.mp4)
 ![espectro de señal](Verificacion_espectro.jpeg)
 
+
 ## Conclusiones
+- Se observo la correcta composicion en frecuencia de la señal MPX, la banda L+R (0-15 kHz), el tono piloto en 19 kHz y la banda DSB-SC centrada en 38 kHz correspondiente al componente L-R, confirmando el esquema de multiplexación estereo fue implementadoadecuadamente en GNU Radio. Por lo que la señal MPX generada es apta para ser utilizada como entrada de un modulador FM que seria el encargado de desplazar los componentes mediante variacion de frecuencia alrededor de una portadora de radio.
+- Se comprobo que la transmision de la señal MPX modulada en FM presentaba un audio claro y sin distorsiones evidentes, es decir, el desempeño practico del sistema confirma que la señal generada cumple las especificaciones tanto teoricas como cualitativas de calidad.
+- La resolucion espectral del FFT depende del tamaño de la ventana y del sample rate, lo que introduce ruido visual, por lo que las amplitudes no se pueden medir con exactitud. Tambien se pueden presentar fugas espectrales en la subportadora debido a imperfecciones en el filtrado, lo que afecta la decodificacion estereo en el receptor.
